@@ -1,5 +1,10 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/spock/version', __FILE__)
+if RUBY_VERSION == '1.8.7'
+  $:.unshift File.expand_path("../lib", __FILE__)
+  require "spock/version"
+else
+  require File.expand_path('../lib/spock/version', __FILE__ )
+end
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Andres Riofrio"]
