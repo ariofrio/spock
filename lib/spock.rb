@@ -43,7 +43,7 @@ class Spock
 
   def merge_file(source_file, target_file)
     if not @opts[:dry_run]
-      File.rm_rf target_file
+      FileUtils.rm_rf target_file
       if symlink_supported?
         File.symlink source_file, target_file
       else

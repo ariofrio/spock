@@ -1,24 +1,24 @@
 # Spock
 
-TODO: Write a gem description
+Merge multiple directories into one using symlinks. It's like [Spock][]'s mind meld. Kind of. Not really.
+
+  [spock]: http://en.wikipedia.org/wiki/Spock
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'spock'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install spock
+    gem install spock
 
 ## Usage
 
-TODO: Write usage instructions here
+See [spock/examples][] for sample configuration files. Place yours in ~/.spockrc, ~/Dropbox/.spockrc, or ~/Dropbox/Apps/Spock/spockrc. Then, run
+
+    spock
+
+You can also a configuration file anywhere by running
+
+    spock path/to/my/spockrc
+
+  [spock/examples]: https://github.com/ariofrio/spock/tree/master/examples
 
 ## Contributing
 
