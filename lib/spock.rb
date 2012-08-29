@@ -23,7 +23,7 @@ class Spock
     config.sources.reverse.each do |source|
       if not File.directory? source
         puts "Not found: source directory #{source}"
-        break
+        next
       end
       Dir.chdir(source) do
         Dir['*'].each do |path|
