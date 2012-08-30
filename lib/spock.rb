@@ -28,7 +28,7 @@ class Spock
       Dir.chdir(source) do
         Dir['*'].each do |path|
           source_file = File.join(source, path)
-          target_file = File.join(config.target, path)
+          target_file = File.join(config.target, config.target_prefix + path)
           
           if needs_replacement? source_file, target_file
             puts "Merging #{target_file} from #{source}"
@@ -74,10 +74,11 @@ class Spock
 
   class Config
     attr_reader :sources, :target, :target_prefix
-    def initialize; @sources = []; @target = nil; end
+    def initialize; @sources = []; @target = nil; @target_prefix = ''; end
 
     def from(str); @sources << File.expand_path(str); end
     def to(str); @target = File.expand_path(str); end
+    def to_prefix(str); @target_prefix = str; end
   end
 
 end

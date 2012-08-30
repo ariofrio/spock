@@ -1,0 +1,13 @@
+# dotfile manager
+#
+# Place this file in ~/Dropbox/.spockrc and run spock every time you add a
+# file/directory. In Windows, also run spock every time you edit a file.
+#
+# Now you can quickly get set up on new computers.
+
+to_prefix '.'
+
+from '~/GitHub/dotfiles'
+from '~/Dropbox/Dotfiles'
+from '~/Encrypted/Dotfiles'
+to '~'
