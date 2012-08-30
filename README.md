@@ -1,4 +1,4 @@
-# Spock
+# Spock [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/ariofrio/oration)
 
 Merge multiple directories into one using symlinks (copies on Windows). It's like [Spock][]'s mind meld. Kind of. Not really.
 
