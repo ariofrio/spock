@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    spock (0.0.1)
+      trollop (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    trollop (2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  spock!
