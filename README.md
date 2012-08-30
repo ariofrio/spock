@@ -31,3 +31,16 @@ You can also a configuration file anywhere by running
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## History
+
+0.0.2:
+
+ - Fix "uninitialized constant Spock::FileUtils" error
+
+0.0.1:
+
+ - Support for target prefix (useful for dotfile management)
+ - Support for multiple sources, first takes precedence
+ - Support for Windows using simple copies
+
