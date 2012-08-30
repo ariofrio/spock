@@ -9,9 +9,8 @@ end
 Gem::Specification.new do |gem|
   gem.authors       = ["Andres Riofrio"]
   gem.email         = ["riofrios@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.summary       = %q{Merge multiple directories into one using symlinks}
+  gem.homepage      = "https://github.com/ariofrio/spock"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
