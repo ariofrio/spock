@@ -1,6 +1,6 @@
 # Spock
 
-Merge multiple directories into one using symlinks. It's like [Spock][]'s mind meld. Kind of. Not really.
+Merge multiple directories into one using symlinks (copies on Windows). It's like [Spock][]'s mind meld. Kind of. Not really.
 
   [spock]: http://en.wikipedia.org/wiki/Spock
 
