@@ -12,6 +12,10 @@ Merge multiple directories into one using symlinks (copies on Windows). It's lik
 
 See [spock/examples][] for sample configuration files. Place yours in ~/.spockrc, ~/Dropbox/.spockrc, or ~/Dropbox/Apps/Spock/spockrc. Then, run
 
+    spock --dry-run
+
+If you are satisfied, run
+
     spock
 
 You can also a configuration file anywhere by running
