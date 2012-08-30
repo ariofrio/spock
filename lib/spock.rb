@@ -1,4 +1,5 @@
 require "spock/version"
+require "fileutils"
 
 class Spock
 
